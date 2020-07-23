@@ -1,6 +1,6 @@
 
-## Redux-toolkit
+# Redux-toolkit
 
-# Todo
-# Counter
-# Fetch data
+## Todo
+## Counter
+## Fetch data

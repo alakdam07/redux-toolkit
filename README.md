@@ -10,3 +10,5 @@
 | 1 | Todo |
 | 2 | Counter |
 | 3 | Fetch Data |
+
+## Here is the app link: [cool redux-toolkit](https://cool-redux-toolkit.netlify.app/).

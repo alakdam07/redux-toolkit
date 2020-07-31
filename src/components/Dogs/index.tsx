@@ -11,11 +11,8 @@ export default memo(() => {
     <div>
       {meta.loading ? <p>loading....</p> :
         dogs.map((i, index) =>
-          <div key={index}>
-            <ul>
-              <li>{i}</li>
-            </ul>
-            <img style={{ "width": 50, "height": 50 }} src={i} />
+          <div key={index} style={{ "display": `inline` }}>
+            <img style={{ "width": 100, "height": 100, "margin": 10 }} src={i} />
           </div>)}
       <br></br>
       <button onClick={() => dispatch(fetchDogs())}> display random dogs</button>
